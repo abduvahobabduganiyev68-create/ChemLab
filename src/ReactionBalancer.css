@@ -1,0 +1,26 @@
+.reaction-panel{max-width:900px}
+.reaction-input{width:100%;min-height:96px;resize:vertical;border:1px solid var(--line);border-radius:7px;padding:12px;color:var(--navy);font:16px/1.6 Consolas,"Courier New",monospace}
+.reaction-input:focus{outline:2px solid #9bb4d3;outline-offset:1px}
+.reaction-actions{display:flex;align-items:center;gap:10px;margin-top:10px}
+.reaction-actions>span{margin-left:auto;color:var(--muted);font-size:11px}
+.clear-reaction{height:40px;padding:0 12px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--muted)}
+.clear-reaction:disabled{opacity:.5;cursor:default}
+.reaction-examples{border-top:1px solid var(--line);margin-top:20px;padding-top:14px}
+.reaction-examples>strong{font-size:12px}
+.reaction-examples .examples button{font:12px Consolas,"Courier New",monospace}
+.reaction-result{max-width:900px;margin-top:16px;border:1px solid var(--line);background:#fff;border-radius:9px;padding:20px}
+.reaction-result-heading{display:flex;justify-content:space-between;align-items:center}
+.validation-badge{background:#fff1f1;color:#a33;border-radius:20px;padding:6px 10px;font-size:11px;font-weight:700}
+.validation-badge.valid{background:#eaf6ef;color:#36744c}
+.equation-result{margin-top:14px;border:1px solid var(--line);border-radius:7px;padding:12px 14px}
+.equation-result>span{font-size:11px;color:var(--muted)}
+.equation-result p{font:16px/1.7 Consolas,"Courier New",monospace;margin:7px 0 0;overflow-wrap:anywhere}
+.equation-result.balanced{background:#f4f8fc;border-color:#ccd9e7}
+.equation-operator{padding:0 7px;color:var(--blue);font-weight:700}
+.reaction-result h3{font-size:14px;margin:18px 0 8px}
+.atom-table-wrap{overflow:auto}
+.atom-table{width:100%;border-collapse:collapse;font-size:12px}
+.atom-table th,.atom-table td{padding:9px 10px;text-align:left;border-bottom:1px solid #edf0f4}
+.atom-table thead th{color:var(--muted);font-weight:600;background:#f8f9fb}
+.chemistry-limitation{font-size:11px;line-height:1.55;color:var(--muted);margin:14px 0 0;padding:10px;background:#f8f9fb;border-radius:6px}
+@media(max-width:680px){.reaction-actions{flex-wrap:wrap}.reaction-actions>span{width:100%;margin-left:0}.reaction-result{padding:14px}.equation-result p{font-size:14px}}
